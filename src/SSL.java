@@ -25,7 +25,9 @@ public class SSL {
 	   WebDriver driver = new EdgeDriver(option2);
 	   driver.get("https://expired.badssl.com/");
 	   System.out.println(driver.getTitle());
-	    
+	   
+	   System.out.println("SSL_1");
+	   System.out.println("SSL_2");
 	}
 
 }

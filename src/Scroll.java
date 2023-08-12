@@ -34,8 +34,8 @@ public class Scroll {
 	    
 	    int exp = Integer.parseInt(driver.findElement(By.className("totalAmount")).getText().split(":")[1].trim());
 
-	    
-	    
+	    System.out.println("scroll1");
+	    System.out.println("scroll2");
 	}
 
 }

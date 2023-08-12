@@ -27,7 +27,8 @@ public class BrokenLinks {
 	    conn.connect();
 	    int res = conn.getResponseCode();
 	    System.out.println(res);
-	    
+	    System.out.println("First changes to a file");
+	    System.out.println("Second changes to a file");
 	}
 
 }
